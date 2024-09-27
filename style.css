@@ -1,0 +1,118 @@
+body{
+	
+	margin:15px;	
+	line-height:2;
+    background-image: url("background.jpg");
+	
+}
+
+
+
+#header{
+	display:flex;
+	background:#347172;
+	font-size:200%;
+    position: sticky;
+    font-family: 'Dancing Script', cursive;
+	border-radius:10px;
+}
+
+h1{
+    color:#cdeeec;
+	
+}
+
+
+.link{
+	flex:5;
+	text-align:center;
+    
+}
+#header2{
+	display:flex;
+	flex:50;	
+	align-items:center;
+    
+}
+
+
+
+h1, h3, h2{
+	color:#347172;
+}
+
+a{
+    color:#cdeeec;
+    text-decoration: none;	
+    display: inline-block;
+}
+
+#tab{
+    color:#347172;
+}
+
+.container{
+	margin-top: 30px;
+}
+
+#about, #med, #box, #home{
+	
+	color:black;
+	font-family:'Space Grotesk', sans-serif;
+	font-size: large;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 20px;
+}
+#show{
+	display:none;
+}
+
+
+#box{
+	
+	max-width: 500px;
+	width: 100%;
+	background:#fff;	
+	padding: 25px 30px;
+	border-radius:10px;
+	
+}
+
+#container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px;
+    width: 200px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+  }
+  
+
+#images{
+	height: 15cm;
+	width: 15cm ;
+	
+}
+
+.image-row {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.image-row img {
+	width: 8cm;
+	height: auto;
+	border: 3px solid #000; /* Add border to images */
+	
+}
+
+
+
+
+
+
+
+
