@@ -10,7 +10,7 @@
 
         
         <!--Links to CSS-->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
         <!--Links to goodle Fonts-->
 
@@ -28,19 +28,17 @@
         
         <!-- <h1> Mental Health and Meditation </h1> -->
 
-        <div style="background-image: url('background.jpg');"> <!--Background image-->
+        <div > <!--Background image-->
         
         <h3> </h3>
         <div id="header">
 
-        <div id="header2"> <!-- the links for each section of the page -->
-
-				<div class="link"><a href="index.html" target="_blank">Home</a></div>
-            	<!-- <div class="link"><a href="about.html" target="_blank">About</a></div>
-				<div class="link"><a href="contact.html" target="_blank">Contact</a></div> -->
-                <div class="link"><a href="meditation.html" target="_blank">Meditation Guide</a></div>
-                <div class="link"><a href="galery.html" target="_blank">Galery</a></div>
-        </div>
+            <div id="header2">
+                <div class="link"><a href="/">Home</a></div>
+                <div class="link"><a href="/meditation">Meditation Guide</a></div>
+                <div class="link"><a href="/gallery">Gallery</a></div>
+                <div class="link"><a href="/contact">Contact Us</a></div>
+            </div>
         </div>
 
         <!-- Meditation Guide-->

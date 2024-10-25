@@ -10,7 +10,7 @@
 
     
     <!--Links to CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
     <!--Links to goodle Fonts-->
 
@@ -26,21 +26,17 @@
         
         <!-- <h1> Mental Health and Meditation </h1> -->
 
-        <div style="background-image: url('background.jpg');"> <!--Background image-->
+        <div > <!--Background image-->
         
         <h3> </h3>
         <div id="header">
 
-        <div id="header2"> <!-- the links for each section of the page -->
-
-				        <div class="link"><a href="index.html" target="_blank">Home</a></div>
-            	  <!-- <div class="link"><a href="meditation.html" target="_blank">About</a></div>
-				        <div class="link"><a href="contact.html" target="_blank">Contact</a></div> -->
-                <div class="link"><a href="meditation.html" target="_blank">Meditation Guide</a></div>
-                
-                <!-- Gallery using bootstrap -->
-                <div class="link"><a href="galery.html" target="_blank">Galery</a></div>
-            </div>
+          <div id="header2">
+            <div class="link"><a href="/">Home</a></div>
+            <div class="link"><a href="/meditation">Meditation Guide</a></div>
+            <div class="link"><a href="/gallery">Gallery</a></div>
+            <div class="link"><a href="/contact">Contact Us</a></div>
+        </div>
             </div>
     </div>
     <!--Images links with bootstrap and thumbnail format-->
@@ -48,27 +44,27 @@
   <br><br>
     <center><h3> Area of meditation</h3></center><br>
     <div class="image-row">
-      <img src="place.jpg" alt="">
-      <img src="place2.jpg" alt="">
-      <img src="place3.jpg" alt="">
-      <img src="place4.jpg" alt="">
+      <img src="{{ url_for('static', filename='place.jpg') }}" alt="">
+      <img src="{{ url_for('static', filename='place2.jpg') }}" alt="">
+      <img src="{{ url_for('static', filename='place3.jpg') }}" alt="">
+      <img src="{{ url_for('static', filename='place4.jpg') }}" alt="">
   </div>
 <br>
 <center><h3> Body posture</h3></center><br>
   <div class="image-row">
-    <img src="image4.jpg" alt="">
-    <img src="pos.jpg" alt="">
-    <img src="pos2.jpg" alt="">
-    <img src="pos3.jpg" alt="">
+    <img src="{{ url_for('static', filename='image4.jpg') }}" alt="">
+    <img src="{{ url_for('static', filename='pos.jpg') }}" alt="">
+    <img src="{{ url_for('static', filename='pos2.jpg') }}" alt="">
+    <img src="{{ url_for('static', filename='pos3.jpg') }}" alt="">
     
 </div>
       <br>
       <center><h3> Hand mudras</h3></center><br>
 <div class="image-row">
-  <img src="hand.jpg" alt="">
-  <img src="hand2.jpg" alt="">
-  <img src="hand3.jpg" alt="">
-  <img src="hand4.jpg" alt="">
+  <img src="{{ url_for('static', filename='hand.jpg') }}" alt="">
+  <img src="{{ url_for('static', filename='hand2.jpg') }}" alt="">
+  <img src="{{ url_for('static', filename='hand3.jpg') }}" alt="">
+  <img src="{{ url_for('static', filename='hand4.jpg') }}" alt="">
   
 </div>
       
